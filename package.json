@@ -1,14 +1,21 @@
 {
-  "name": "parcel-vanilla-starter",
+  "name": "acf-name-reveal",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "source": "src/index.html",
-  "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+  "engines": {
+    "node": ">=18"
   },
-  "dependencies": {},
+  "scripts": {
+    "dev": "parcel watch manifest.json",
+    "build": "parcel build manifest.json"
+  },
   "devDependencies": {
-    "parcel": "^2.14.0"
+    "@types/chrome": "^0.1.37",
+    "parcel": "^2.14.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@parcel/config-webextension": "^2.16.4"
   }
 }
