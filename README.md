@@ -10,6 +10,8 @@ Built with TypeScript and bundled using Parcel, the extension utilizes the [Adva
 
 Parent fields are determined by walking up the DOM tree. Their names are prefixed to child fields and separated by underscores, so they can be copied and used directly in functions like `get_field()`.
 
+<img src="https://github.com/user-attachments/assets/7f51b0e0-94e9-4320-b730-f9682077da9b" width="600" alt="ACF Name Reveal showing field names displayed inline in the WordPress admin">
+
 ## Compatibility
 
 Tested in:
